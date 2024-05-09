@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    left: 12%
+    bottom: 12%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 13%
+    left: 13%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 22%
 
 
 @keyframes float1
@@ -17,3 +22,186 @@
 
   100%
     transform: translateY(0px)
+
+//Banners
+.banner-principal__info
+  @media screen and (max-width: $bp-max-xl)
+    padding-right: 5rem
+  @media screen and (max-width: $bp-max-md)
+    padding-right: 1.125rem
+.banner-principal__img
+  padding-bottom: 0 !important
+  padding-top: 2rem !important
+  img
+    max-width: 419px
+    margin: 0 auto
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right
+    background-image: url(../assets/curso/fondo_tema.png) !important
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero
+    span
+      color: $color-sistema-texto
+
+//titulos
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
+//color de fondos
+.fondo-color-sistema-h
+  background-color: $color-sistema-h !important
+.fondo-color-sistema-i
+  background-color: $color-sistema-i !important
+.fondo-color-sistema-j
+  background-color: $color-sistema-j !important
+//.fondo-color-sistema-k
+//  background-color: $color-sistema-k !important
+//.fondo-color-sistema-l
+//  background-color: $color-sistema-l !important
+//.fondo-color-sistema-m
+//  background-color: $color-sistema-m !important
+//.fondo-color-sistema-n
+//  background-color: $color-sistema-n !important
+//.fondo-color-sistema-o
+//  background-color: $color-sistema-o !important
+//.fondo-color-sistema-p
+//  background-color: $color-sistema-p !important
+//.fondo-color-sistema-q
+//  background-color: $color-sistema-q !important
+.fondo-color-primario
+  background-color: $color-primario !important
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido !important
+
+//bordes
+.borde-8
+  border-radius: 8px !important
+.borde-10
+  border-radius: 10px !important
+.borde-11
+  border-radius: 11px !important
+.borde-lg-10
+  @media screen and (max-width: $bp-max-md)
+    border-radius: 10px !important
+.borde-12
+  border-radius: 12px !important
+.borde-13
+  border-radius: 13px !important
+.borde-16
+  border-radius: 16px !important
+.borde-20
+  border-radius: 20px !important
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/3.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-2
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/8.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 120px
+
+//figuras
+.figura-deco-1
+  z-index: 1
+  bottom: 38px
+  @media screen and (max-width: $bp-max-md)
+      bottom: 0px
+
+//contenedores
+.cont_1_1
+  position: relative
+  *
+    position: relative
+  &:before
+    border-radius: 8px
+    content: ""
+    position: absolute
+    top: 0
+    left: -10%
+    right: 0
+    bottom: 0
+    background-color: white
+    z-index: 0
+    @media screen and (max-width: 992px)
+      left: 0
+
+//tarjetas
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 22px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  width: 100%
+  min-height: 70px
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 0.2rem 0.5rem
+  bottom: 0
+  background-color: $color-primario
+
+//imagen infografica
+.imagen-infografica-personalizada-1
+  .img-infografica__item, .img-infografica-b__item
+    width: 4%
+  .tarjeta
+    background-color: white
+  .img-infografica__item__numero
+    font-size: 1.5rem
