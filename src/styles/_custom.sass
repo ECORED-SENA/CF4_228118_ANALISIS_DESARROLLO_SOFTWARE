@@ -81,28 +81,40 @@
   background-color: $color-sistema-i !important
 .fondo-color-sistema-j
   background-color: $color-sistema-j !important
-//.fondo-color-sistema-k
-//  background-color: $color-sistema-k !important
-//.fondo-color-sistema-l
-//  background-color: $color-sistema-l !important
-//.fondo-color-sistema-m
-//  background-color: $color-sistema-m !important
-//.fondo-color-sistema-n
-//  background-color: $color-sistema-n !important
-//.fondo-color-sistema-o
-//  background-color: $color-sistema-o !important
-//.fondo-color-sistema-p
-//  background-color: $color-sistema-p !important
-//.fondo-color-sistema-q
-//  background-color: $color-sistema-q !important
+.fondo-color-sistema-k
+  background-color: $color-sistema-k !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
+.fondo-color-sistema-m
+  background-color: $color-sistema-m !important
+.fondo-color-sistema-n
+  background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
+.fondo-color-sistema-r
+  background-color: $color-sistema-r !important
+.fondo-color-sistema-s
+  background-color: $color-sistema-s !important
+.fondo-color-sistema-t
+  background-color: $color-sistema-t !important
 .fondo-color-primario
   background-color: $color-primario !important
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido !important
 
+//colores
+.color-sistema-n
+  color: $color-sistema-n !important
+
 //bordes
+.borde-7
+  border-radius: 7px !important
 .borde-8
   border-radius: 8px !important
+.borde-9
+  border-radius: 9px !important
 .borde-10
   border-radius: 10px !important
 .borde-11
@@ -155,6 +167,163 @@
     &:before
       top: 120px
 
+.fondo-personalizado-3
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/16.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-4
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/17.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
+.fondo-personalizado-5
+  background: rgb(146,41,238)
+  background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 20%, rgba(52,9,90,1) 100%)
+
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/33.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 20px
+
+.fondo-personalizado-7
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/40.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 10px
+
+.fondo-personalizado-8
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/44.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
+  &__contenido
+    position: relative
+
+.fondo-personalizado-9
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/45.png)
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    background-position: bottom
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      bottom: 14%
+
+.fondo-personalizado-10
+  position: relative
+  *
+    position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 5px
+    bottom: 5px
+    z-index: 0
+    border-radius: 18px
+  &.color-1
+    &:before
+      background-color: $color-sistema-r
+  &.color-2
+    &:before
+      background-color: $color-sistema-s
+  &.color-3
+    &:before
+      background-color: $color-sistema-t
+
+.fondo-personalizado-burbuja
+  position: relative
+  .burbuja
+    height: 178px
+    width: 178px
+    background-color: white
+    -webkit-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    -moz-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    border-radius: 50%
+    position: absolute 
+    &.right
+      right: 0
+      transform: translateX(calc( 50px +  89px))
+    &.left
+      left: 0
+      transform: translateX(calc( -50px -  89px))
+    &.bottom
+      bottom: 0
+      transform: translateY(calc( 50px +  89px))
+  &__contenido
+    position: relative
+
 //figuras
 .figura-deco-1
   z-index: 1
@@ -201,7 +370,44 @@
 .imagen-infografica-personalizada-1
   .img-infografica__item, .img-infografica-b__item
     width: 4%
+    @media screen and (max-width: $bp-max-md)
+      width: 9%
+
+    
   .tarjeta
     background-color: white
   .img-infografica__item__numero
     font-size: 1.5rem
+
+//sombras
+.sombra-1
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+
+//listas
+.lista-personalizada-1
+  li
+    display: flex
+    margin-bottom: 20px
+
+//acordiones
+.acordion-personalizado-1
+  &__tarjeta
+    .acordion__header
+      margin-bottom: 1.2rem !important
+    padding-right: 1.2rem !important
+    padding-left: 1.2rem !important
+    padding-top: 1.2rem !important
+    border-radius: 4px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-q
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important

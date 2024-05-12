@@ -73,40 +73,89 @@
               img(src='@/assets/curso/temas/11.png' alt="")
           .crd_hover_txt--body
             p.mb-0.text-white.text-center.fw-bold Ivar Jacobson, UML 0.8 y 0.91 1996
-
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
-      .row
-        .col-auto.pe-0
-          figure
-            img(src="@/assets/curso/temas/img-titulo-dec.png")
-        .col.align-self-end
-          h3.mt-3.mb-0.me-2 Características generales del UML
     
-    .row.mb-5
+    .fondo-personalizado-2
+      .fondo-personalizado-2__contenido.py-5
+        .cont-titulo-decorativo.p-2.mt-2.mb-5
+          .row
+            .col-auto.pe-0
+              figure
+                img(src="@/assets/curso/temas/img-titulo-dec.png")
+            .col.align-self-end
+              h3.mt-3.mb-0.me-2 Características generales del UML
+        
+        .row.mb-5
+          .col-lg-8
+            p.mb-0 Como se mencionó anteriormente, el UML es un lenguaje que proporciona un conjunto de reglas que facilitan la comunicación de un sistema mediante representaciones gráficas, indicando cómo realizar la creación y lectura de los modelos. Aunque existen muchas características del UML, según Booch (2006), se pueden resumir en las siguientes, las cuales se detallan a continuación:
+          .col-lg-4
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/12.png",style="max-width: 400px;")
+        
+        .bg-white.overflow-hidden.pt-4.d-none.d-lg-block
+          .fondo-personalizado-burbuja
+            .fondo-personalizado-burbuja__contenido
+              .burbuja.left(style="transform: translateX(calc(-89px));top: 50px;")
+              .burbuja.right(style="transform: translateX(calc(89px));top: -89px;")
+              ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1
+                template(v-slot:imagen)
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 1023px;")
+
+                .tarjeta.color-acento-botones.p-3.borde-9(x="23%" y="73%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Visualizar
+                  p UML facilita la representación de un sistema de forma gráfica, con el fin de que se pueda entender fácilmente por otra persona.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="63%" y="25%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Especificar
+                  p UML permite detallar cuáles son las necesidades de un sistema previo a su construcción.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="39%" y="25%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Construir
+                  p La construcción del sistema diseñado se realiza tomando los modelos especificados en el lenguaje UML.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="77%" y="65%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Documentar
+                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado estos se usan como documentación la cual permite soporte para nuevas revisiones o empalme para que nuevos desarrolladores entiendan el sistema.
+        
+        .d-lg-none.fondo-color-sistema-k.borde-10.p-4.overflow-hidden
+          .fondo-personalizado-burbuja
+            .fondo-personalizado-burbuja__contenido
+              .burbuja.bottom(style="transform: translateY(calc(89px));background-color: #F2F6FF;left: 5%;")
+              .burbuja.right(style="transform: translateX(calc(89px));top: 15%;background-color: #F2F6FF;")
+              ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1
+                template(v-slot:imagen)
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 1023px;")
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="35%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Visualizar
+                  p UML facilita la representación de un sistema de forma gráfica, con el fin de que se pueda entender fácilmente por otra persona.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="71%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Especificar
+                  p UML permite detallar cuáles son las necesidades de un sistema previo a su construcción.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="54%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Construir
+                  p La construcción del sistema diseñado se realiza tomando los modelos especificados en el lenguaje UML.
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="88%" numero="+")
+                  .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Documentar
+                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado estos se usan como documentación la cual permite soporte para nuevas revisiones o empalme para que nuevos desarrolladores entiendan el sistema.
+
+    .row.align-items-center 
       .col-lg-8
-        p.mb-0 Como se mencionó anteriormente, el UML es un lenguaje que proporciona un conjunto de reglas que facilitan la comunicación de un sistema mediante representaciones gráficas, indicando cómo realizar la creación y lectura de los modelos. Aunque existen muchas características del UML, según Booch (2006), se pueden resumir en las siguientes, las cuales se detallan a continuación:
-      .col-lg-4
+        p.mb-0 La versión 1.0 de UML fue lanzada en enero de 1997 y desde entonces ha sido utilizado con éxito en la construcción de sistemas para diversas industrias alrededor del mundo, incluyendo hospitales, bancos, comunicaciones, aeronáutica y finanzas, entre otras. UML es actualmente el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado, permitiendo visualizar, especificar, construir y documentar sistemas con una perspectiva orientada a objetos (Rumbaugh et al., 2004).
+      .col-lg-4.order-first.order-lg-last
         figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/12.png",style="max-width: 400px;")
+          img.mx-auto(src="@/assets/curso/temas/15.png",style="max-width: 400px;")
 
-    ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1
-      template(v-slot:imagen)
-        figure
-          img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 1023px;")
-
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 1.] Modelo para la construcción de software UML
     
+    .fondo-personalizado-4.mb-5
+      .fondo-personalizado-4__contenido
+        .row.justify-content-center
+          .col-lg-8.py-5
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/18.png",style="max-width: 820px;",alt="El Modelo para la construcción de software UML se utiliza principalmente para: comunicar la estructura de un sistema complejo, especificar el comportamiento que se requiere en el sistema, comprender de una manera más clara lo que construye y especificar el comportamiento que se requiere en el sistema.")
 
+    p.mb-0 UML está compuesto por diversos elementos gráficos que se combinan para #[b conformar diagramas]. Entre los tipos de diagramas que ofrece UML, se encuentra #[b el diagrama de clase], que es parte de los diagramas de estructura. Estos últimos enfatizan los elementos que deben existir en el sistema de modelado.
       
 </template>
 
