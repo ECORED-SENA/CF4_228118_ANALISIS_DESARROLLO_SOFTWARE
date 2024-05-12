@@ -414,20 +414,213 @@
                 .col
                   p.mb-0.text-white.pb-lg-1.pb-4.py-1 Detallar los casos de uso.
     
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center.mb-4
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
       .col
         p.mb-0.position-relative A continuación, se presenta las partes esenciales y las directrices básicas para la documentación de casos de uso.
-
-
-
-
-
-
-        
     
+    .fondo-personalizado-6.pos-2.mb-4
+      .fondo-personalizado-6__contenido
+        .row.justify-content-center
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Tabla 1.] Plantilla de casos de uso
+
+            .tabla-a.mb-5.fondo-color-sistema-h(data-aos="flip-up")
+              table
+                thead
+                  tr
+                    th Componente
+                    th Descripción de una especificación de caso de uso
+                tbody
+                  tr
+                    td #[b Nombre del caso de uso]
+                    td Indica el nombre del caso de uso. Normalmente, el nombre expresa el resultado objetivo y observable del caso de uso, como por ejemplo "Imprimir factura" en el caso de un de un sistema de ventas.
+                  tr
+                    td #[b Autor]
+                    td Persona que diseña el caso de uso.
+                  tr
+                    td #[b Fecha]
+                    td Aquí se diligencia la fecha en la que se realizó el caso de uso.
+                  tr
+                    td #[b Descripción]
+                    td Se realiza una corta descripción del caso de uso.
+                  tr
+                    td #[b Actores]
+                    td Describe los nombres del actor o actores del caso de uso.
+                  tr
+                    td #[b Precondiciones]
+                    td Son aquellas condiciones que deben existir para que se cumpla el caso de uso.
+                  tr
+                    td #[b Flujo normal]
+                    td Son los pasos normales de ejecución del caso de uso.
+                  tr
+                    td #[b Flujo alternativo]
+                    td Flujos alternativos de ejecución de casos de uso.
+                  tr
+                    td #[b PosCondiciones]
+                    td Son aquellas condiciones que se cumplen cuando finaliza un caso de uso.
+
+        .row.mb-5.align-items-center.mb-4
+          .col-auto.d-none.d-lg-block
+            figure
+              img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
+          .col
+            p.mb-0.position-relative A continuación, se presenta un ejemplo de especificación de casos de uso para el caso de uso “Crear Foro” utilizando la plantilla propuesta posteriormente.
+
+        .row.justify-content-center
+          .col-lg-8
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Tabla 2.] Descripción de una especificación de caso de uso ejecutado
+
+            .tabla-a.mb-5.tabla-personalizada-1.tam-1.fondo-color-sistema-h(data-aos="flip-up")
+              table
+                thead
+                  tr
+                    th(style="width: 220px;") Componente
+                    th(style="min-width: 300px;") Descripción de una especificación de caso de uso
+                tbody
+                  tr
+                    td #[b Nombre del caso de uso]
+                    td Crear foro
+                  tr
+                    td #[b Autor]
+                    td Mario Vera Cruz
+                  tr
+                    td #[b Fecha]
+                    td 20/09/2021
+                  tr
+                    td #[b Descripción]
+                    td Crea un nuevo mensaje.
+                  tr
+                    td #[b Actores]
+                    td Alumno/Docente.
+                  tr
+                    td #[b Precondiciones]
+                    td Al iniciar el usuario debe estar autenticado en el sistema.
+                  tr
+                    td #[b Flujo normal]
+                    td
+                      p.mb-0 #[b 1.] El actor da clic en la opción nuevo mensaje.
+                      p.mb-0 #[b 2.] Se muestra un área de texto para escribir el mensaje.
+                      p.mb-0 #[b 3.] El actor introduce el mensaje.
+                      p.mb-0 #[b 4.] El sistema verifica datos y los almacena.
+                      p.mb-0 #[b 5.] El profesor acepta y publica.
+
+                  tr
+                    td #[b Flujo alternativo]
+                    td
+                      p.mb-0 #[b 4a]. Se hace una comprobación de los datos, si no son correctos muestra mensaje de corrección.
+                      p.mb-0 #[b 4b]. El profesor rechaza el mensaje de modo que no es publicado sino devuelto.
+
+                  tr
+                    td #[b PosCondiciones]
+                    td Se publica y almacena el mensaje satisfactoriamente.
+
+    Separador
+
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2 2.2 Casos de uso reales (Prototipos)
+
+    .row.mb-4
+      .col-lg-7
+        p.mb-4 El propósito principal de los casos de uso reales es detallar el proceso de un sistema de información descrito mediante un caso de uso, lo que incluye la interacción de objetos y la definición de las transacciones de las interfaces y clases de los diferentes procedimientos secundarios de diseño. Por lo tanto, es fundamental completar los entornos recolectados del análisis con las clases de diseño correspondientes, sin dejar de lado las restricciones del entorno tecnológico.
+        .fondo-color-sistema-j.p-3.borde-13
+          .row.align-items-center
+            .col-lg-auto 
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/55.png",style="max-width: 112px;")
+            .col
+              p.mb-0 Los casos de uso reales representan el diseño preciso del caso de uso desde una tecnología específica. Por ejemplo, si se trata de un diseño gráfico para el usuario, se incluirá el diseño de las ventanas y una descripción de la interacción con los objetos de la interfaz. Los casos de uso reales proporcionan diseños de pantalla y explicaciones sobre la interacción entre los objetos de la interfaz.
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/56.png",style="max-width: 502px;")
+
+    .row.mb-5.align-items-center
+      .col-auto.d-none.d-lg-block
+        figure
+          img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
+      .col
+        p.mb-0.position-relative Para aclarar las definiciones anteriores, se utiliza un ejemplo de un sistema de ventas que se presentará posteriormente. En este ejemplo, se realiza el diseño del caso de uso real y se describe la interacción entre los artefactos del diseño. A continuación, se presenta una tabla con los datos de un ejemplo para un sistema de ventas:
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 3.] Sistema de ventas
+
+        .tabla-a.tabla-personalizada-1.tam-1.fondo-color-sistema-h(data-aos="flip-up")
+          table
+            thead
+              tr
+                th(style="width: 320px;") Caso de uso adquirir productos
+                th(style="min-width: 300px;") Adquirir productos
+            tbody
+              tr
+                td #[b Actores]
+                td Cliente (quien inicia el proceso), Cajero.
+              tr
+                td #[b Tipo]
+                td Primario, real.
+              tr
+                td(style="vertical-align: top;") #[b Descripción]
+                td
+                  ul.lista-ul.lista-personalizada-1
+                    li.mb-1
+                      | &bull; &nbsp;
+                      span En el almacén de ropa el cliente se dirige a la caja registradora con los productos a comprar.
+                    li.mb-1
+                      | &bull; &nbsp;
+                      span El empleado- cajero hace el registro de los productos que el cliente compra y recibe el dinero en efectivo.
+                    li.mb-1
+                      | &bull; &nbsp;
+                      span Al finalizar el proceso, el cliente se retira con los artículos comprados.
+
+    .row.mb-5.align-items-center
+      .col-auto.d-none.d-lg-block
+        figure
+          img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
+      .col
+        p.mb-0.position-relative A continuación, se presenta el ejemplo del sistema de ventas:
+
+    .fondo-personalizado-11.pos-1
+      .fondo-personalizado-11__contenido.pb-5
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 7.] Ejemplo Sistema de ventas
+        .row 
+          .col-lg-8
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/58.png",style="max-width: 820px;",alt="La figura presenta la interfaz de un sistema de ventas  contiene campos para Cod Producto, Precio, Total, Monto, Cantidad, Descripción y Total Venta. En la parte inferior, se encuentran tres botones de acción para Ingresar Producto, Terminar Venta y Efectuar Pago.")
+          .col-lg-4
+            ul.lista-ul.lista-personalizada-1
+              li.mb-2
+                div.list-dec-1.me-2
+                  span.fondo-color-acento-contenido 1
+                span El cliente se acerca a la caja registradora con los artículos que desea llevar.
+              li.mb-2
+                div.list-dec-1.me-2
+                  span.fondo-color-acento-contenido 2
+                div
+                  p.mb-0 El cajero ingresa el código del producto en #[span.color-sistema-n.fw-bold A] de la Ventana-1.
+                  p.mb-0 - Opcional: Si el cliente tiene más de un producto, el cajero puede registrar la cantidad en #[span.color-sistema-n.fw-bold E].
+                  p.mb-0 - Una vez finalizado el registro de todos los productos, se presiona #[span.color-sistema-n.fw-bold H].
+              li.mb-2
+                div.list-dec-1.me-2
+                  span.fondo-color-acento-contenido 3
+                div
+                  p.mb-0 El sistema almacena los productos registrados.
+                  p.mb-0 - La descripción y el precio del producto se muestran en #[span.color-sistema-n.fw-bold B] y en #[span.color-sistema-n.fw-bold F] de la Ventana-1.
+              li.mb-2
+                div.list-dec-1.me-2
+                  span.fondo-color-acento-contenido 4
+                span El cajero presiona el botón #[span.color-sistema-n.fw-bold I] para dar por finalizada la venta.
+              li.mb-2
+                div.list-dec-1.me-2
+                  span.fondo-color-acento-contenido 5
+                span El sistema realiza el cálculo y muestra en #[span.color-sistema-n.fw-bold C] el total de la venta.
+
+
 
 </template>
 

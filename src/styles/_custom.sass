@@ -221,6 +221,9 @@
   &.pos-1
     &:before
       top: 20px
+  &.pos-2
+    &:before
+      top: 100px
 
 .fondo-personalizado-7
   position: relative
@@ -254,7 +257,6 @@
     background-image: url(../assets/curso/temas/44.png)
     background-repeat: no-repeat
     background-size: cover
-    background-position: bottom
   &__contenido
     position: relative
 
@@ -291,6 +293,10 @@
     bottom: 5px
     z-index: 0
     border-radius: 18px
+  &.pos-1
+    &:before
+      top: 10px
+      bottom: 0
   &.color-1
     &:before
       background-color: $color-sistema-r
@@ -300,6 +306,41 @@
   &.color-3
     &:before
       background-color: $color-sistema-t
+
+.fondo-personalizado-11
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/57.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 45px
+
+.fondo-personalizado-12
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/65.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
 
 .fondo-personalizado-burbuja
   position: relative
@@ -323,6 +364,70 @@
       transform: translateY(calc( 50px +  89px))
   &__contenido
     position: relative
+
+.fondo-personalizado-13
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: #E8EEFE
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 141px
+    left: 0
+    top: 0
+    transform: translateX(-55%) translateY(-15%)
+  .imgf-2
+    position: absolute
+    max-width: 88px
+    bottom: 0
+    left: 0px
+    transform: translateY(50%) translateX(30%)
+  .imgf-3
+    position: absolute
+    max-width: 80px
+    top: 0
+    left: 300px
+    transform: translateY(38%) translateX(25%)
+  .imgf-4
+    position: absolute
+    max-width: 107px
+    top: 0
+    right: 0
+    transform: translateY(-48%) translateX(48%)
+  .imgf-5
+    position: absolute
+    max-width: 367px
+    bottom: 0
+    right: 0
+    transform: translateY(50%) translateX(64%)
+
+.fondo-personalizado-14
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/79.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: 45px
 
 //figuras
 .figura-deco-1
@@ -366,6 +471,13 @@
   bottom: 0
   background-color: $color-primario
 
+.num-tarjeta-1
+  font-size: 40px
+  font-weight: bold
+  position: absolute
+  top: 0
+  left: 0
+
 //imagen infografica
 .imagen-infografica-personalizada-1
   .img-infografica__item, .img-infografica-b__item
@@ -391,6 +503,21 @@
     display: flex
     margin-bottom: 20px
 
+.lista-personalizada-2
+  li
+    display: flex
+    align-items: baseline
+    margin-bottom: 20px
+
+.list-dec-1
+  span
+    display: inline-flex
+    width: 24px
+    height: 24px
+    font-weight: bold
+    align-items: center
+    justify-content: center
+
 //acordiones
 .acordion-personalizado-1
   &__tarjeta
@@ -411,3 +538,55 @@
           color: $color-sistema-texto !important
   .acordion__accion__btn--a
     background-color: $color-acento-botones !important
+
+//tablas
+.tabla-a
+  thead
+    th
+      color: white !important
+
+.tabla-personalizada-1
+  &.tam-1
+    table
+      width: auto !important
+      min-width: 100% !important
+  &.stripped
+    tbody
+      tr:nth-child(odd)
+        background-color: $color-sistema-h
+      tr:nth-child(even)
+        background-color: white
+
+//tabs
+.tab-a-personalizado-1
+  .tabs-a__tab
+    background-color: $color-primario
+    color: white
+
+//slyders
+.slider-personalizado-1
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
+
+//contenedores
+.cont_3_1
+  border-bottom-left-radius: 22px
+  border-bottom-right-radius: 22px
+  position: relative
+  top: -20px
