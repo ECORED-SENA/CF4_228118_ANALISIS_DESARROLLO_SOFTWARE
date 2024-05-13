@@ -202,9 +202,9 @@
 
     p.mb-5 En seguida, se presentar dos opciones: 
 
-    .fondo-personalizado-14
+    .fondo-personalizado-14.pos-1
       .fondo-personalizado-14__contenido
-        .row.justify-content-center
+        .row.justify-content-center.mb-5
           .col-lg-4
             .d-flex.flex-column.h-100
               figure
@@ -252,7 +252,150 @@
                       img(src="@/assets/curso/temas/82.svg",style="max-width: 17px;")
                     span.text-white #[b Comentario:] esta historia de usuario contiene especificaciones excesivas en la sección de objetivo y no clarifica suficientemente el beneficio. Se recomienda simplificar y aclarar el propósito para alinearse mejor con los criterios de #[em INVEST].
 
+        .row.mb-5 
+          .col-lg-7.mb-4.mb-lg-0
+            h4.px-4.py-2.d-inline-block.fondo-color-primario.text-white.borde-20.mb-5 #[span(style="color: #00FFDF !important;") &bull;] Ejemplo de una historia épica
+            ul.lista-ul.lista-personalizada-2.mb-0
+              li
+                div.me-1
+                  img(src="@/assets/curso/temas/84.svg",style="min-width: 14px;max-width: 14px;")
+                div #[span.color-sistema-n.fw-bold Rol:] como cliente de un supermercado.
+              li
+                div.me-1
+                  img(src="@/assets/curso/temas/84.svg",style="min-width: 14px;max-width: 14px;")
+                div #[span.color-sistema-n.fw-bold Objetivo:] quiero ingresar a una página web.
+              li
+                div.me-1
+                  img(src="@/assets/curso/temas/84.svg",style="min-width: 14px;max-width: 14px;")
+                div #[span.color-sistema-n.fw-bold Beneficio:] para hacer compras en línea.
+              li
+                div.me-1
+                  img(src="@/assets/curso/temas/84.svg",style="min-width: 14px;max-width: 14px;")
+                div #[span.color-sistema-n.fw-bold Comentario:] esta historia no es independiente y se considera una Épica, porque es muy amplia y puede subdividirse en múltiples historias más pequeñas y manejables. Para visualizar mejor una historia de usuario Épica, se recomienda consultar recursos de aprendizaje específicos sobre este tema.
+          .col-lg-5
+            figure
+              img.mx-auto(src="@/assets/curso/temas/83.png",style="max-width: 505px;")
+        
+        .row.justify-content-center.pb-2
+          .col-lg-2.col-md-6.mb-4
+            .borde-20.fondo-color-primario.p-4.text-center.h-100
+              img.mx-auto.mb-4(src="@/assets/curso/temas/85.svg",style="max-width: 40px;")
+              h4.text-white Hacer un registro
+          .col-lg-2.col-md-6.mb-4
+            .borde-20.fondo-color-primario.p-4.text-center.h-100
+              img.mx-auto.mb-4(src="@/assets/curso/temas/86.svg",style="max-width: 40px;")
+              h4.text-white Un ingreso
+          .col-lg-2.col-md-6.mb-4
+            .borde-20.fondo-color-primario.p-4.text-center.h-100
+              img.mx-auto.mb-4(src="@/assets/curso/temas/87.svg",style="max-width: 40px;")
+              h4.text-white Seleccionar productos
+          .col-lg-2.col-md-6.mb-4
+            .borde-20.fondo-color-primario.p-4.text-center.h-100
+              img.mx-auto.mb-4(src="@/assets/curso/temas/88.svg",style="max-width: 40px;")
+              h4.text-white Pagar, etc.
 
+    .row.justify-content-center 
+      .col-lg-10
+        .p-4.mt-5.fondo-personalizado-5.borde-11.mb-5(data-aos="flip-up")
+          .row
+            .col-auto(style="margin: auto;")
+              figure.mb-lg-0.mb-2
+                img(src="@/assets/curso/temas/89.png" style="max-width:72px")
+            .col-lg.mb-4.mb-md-0.col-md-6
+              h4.color-acento-contenido Plantillas de historias
+              p.mb-0.text-white Para visualizar una historia del usuario épica se le invita a ingresar al anexo:   Plantillas de historias.
+            .col-md-auto.text-center(style="place-self:center;")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_Plantilla_Historias.xls')" target="_blank")
+                span(style="color:initial;") Descargar
+                i.fas.fa-file-download(style="color:initial;")
+
+    .row.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p.mb-4 Por lo anterior, tampoco se cumpliría con la característica de estimación, ya que no se podría determinar cuándo terminaría la historia. Como se identificó en los ejemplos anteriores, el método #[em INVEST] nos proporciona reglas para optimizar la redacción de las historias de usuario, permitiendo así satisfacer las necesidades reales del cliente.
+
+        .fondo-color-sistema-j.p-4.borde-13
+          .row.align-items-center
+            .col-auto.d-none.d-lg-block 
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/91.svg",style="max-width: 85px;")
+            .col 
+              p.mb-0 Para realizar una buena gestión de proyectos, es habitual en las metodologías ágiles utilizar una serie de herramientas para crear las historias de usuario, tales como:
+      .col-lg-5
+        figure
+          img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 502px;")
+    
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-md-6.mb-4
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/92.png' alt="")
+          .crd_hover_txt--body
+            .py-2.d-flex.align-items-center(style="min-height: 75px;")
+              p.mb-0.text-white.text-center Trello
+      .col-lg-3.col-md-6.mb-4
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/93.png' alt="")
+          .crd_hover_txt--body
+            .py-2.d-flex.align-items-center(style="min-height: 75px;")
+              p.mb-0.text-white.text-center Jira Software
+      .col-lg-3.col-md-6.mb-4
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/94.png' alt="")
+          .crd_hover_txt--body
+            .py-2.d-flex.align-items-center(style="min-height: 75px;")
+              p.mb-0.text-white.text-center Taiga
+      .col-lg-3.col-md-6.mb-4
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/95.png' alt="")
+          .crd_hover_txt--body
+            .py-2.d-flex.align-items-center(style="min-height: 75px;")
+              p.mb-0.text-white.text-center Excel
+
+    h4.px-4.py-2.d-inline-block.fondo-color-primario.text-white.borde-20.mb-5 #[span(style="color: #00FFDF !important;") &bull;] 	Plantillas de historias de usuario
+
+    .row.mb-5
+      .col-lg-7
+        p.mb-0 Las plantillas de historias de usuario pueden adaptarse según las necesidades específicas sin perder la flexibilidad y sencillez que caracteriza a una historia de usuario. Los equipos de desarrollo colaboran utilizando herramientas en línea para compartir y trabajar conjuntamente en las plantillas. A continuación, se presenta un ejemplo del uso de una plantilla de Excel para la gestión de productos, descargada de la web.
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/96.png",style="max-width: 502px;")
+
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 4.] Ejemplo plantilla historia de usuario
+        .tabla-a.tabla-personalizada-1.tam-1.fondo-color-sistema-h(data-aos="flip-up")
+          table
+            thead
+              tr
+                th ID de la historia
+                th Rol
+                th Funcionalidad
+                th Razón/Resultado
+                th Criterio de aceptación
+            tbody
+              tr
+                td #[b Id.01]
+                td Como cliente
+                td Quiero ver una lista de categorías de productos.
+                td Para poder realizar búsquedas de productos por categorías.
+                td Despliegue de listado de categorías a seleccionar con productos asociados.
+              tr
+                td #[b Id.02]
+                td Como cliente
+                td Quiero ver una lista de precios.
+                td Para poder elegir el producto más barato.
+                td Despliegue una lista ordenada de productos por precio de menor a mayor.
+            
+
+    
       
 
 
