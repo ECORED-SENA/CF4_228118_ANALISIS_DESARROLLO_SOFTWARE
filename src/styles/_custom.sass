@@ -136,10 +136,17 @@
   border-radius: 15px !important
 .borde-16
   border-radius: 16px !important
+.borde-19
+  border-radius: 19px !important
 .borde-20
   border-radius: 20px !important
+.borde-21
+  border-radius: 21px !important
 .borde-23
   border-radius: 23px !important
+.borde-lg-28
+  @media screen and (max-width: $bp-max-md)
+    border-radius: 28px !important
 
 //fondos
 .fondo-personalizado-1
@@ -176,6 +183,9 @@
   &.pos-1
     &:before
       top: 120px
+  &.pos-2
+    &:before
+      top: 10px
 
 .fondo-personalizado-3
   position: relative
@@ -358,7 +368,7 @@
 
 .fondo-personalizado-burbuja
   position: relative
-  .burbuja
+  .burbuja,.burbuja2
     height: 178px
     width: 178px
     background-color: white
@@ -376,6 +386,15 @@
     &.bottom
       bottom: 0
       transform: translateY(calc( 50px +  89px))
+  .burbuja2
+    height: 294px
+    width: 294px
+    &.right
+      right: 0
+      transform: translateX(calc( 50px +  147px))
+    &.left
+      left: 0
+      transform: translateX(calc( -50px -  147px))
   &__contenido
     position: relative
 
