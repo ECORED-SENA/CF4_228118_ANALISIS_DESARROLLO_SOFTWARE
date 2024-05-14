@@ -2,28 +2,28 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Especificación y análisis de requisitos
 
-    p.mb-4 La función más importante de la especificación de requisitos es servir de intermediario para que los clientes, los analistas de requisitos, los desarrolladores y los usuarios puedan comunicarse eficazmente. En esta fase es fundamental recolectar tanto #[b los requerimientos del usuario y del cliente como los del #[em software] a desarrollar], para lograr la satisfacción del cliente. Por ello, es crucial el uso de técnicas que permitan representar de manera visual e intuitiva estos requerimientos.
+    p.mb-4(data-aos="fade") La función más importante de la especificación de requisitos es servir de intermediario para que los clientes, los analistas de requisitos, los desarrolladores y los usuarios puedan comunicarse eficazmente. En esta fase es fundamental recolectar tanto #[b los requerimientos del usuario y del cliente como los del #[em software] a desarrollar], para lograr la satisfacción del cliente. Por ello, es crucial el uso de técnicas que permitan representar de manera visual e intuitiva estos requerimientos.
 
     .row 
       .col-lg-7
-        .fondo-color-sistema-l.p-4.borde-13.mb-4
+        .fondo-color-sistema-l.p-4.borde-13.mb-4(data-aos="fade-up")
           p.mb-0 Cuando se realiza la recolección de requerimientos de un cliente, el UML facilita el modelado de estos a través de sus casos de uso. Los #[em stakeholders] (partes interesadas) que están involucrados en el producto son incluidos en el modelado con las funcionalidades requeridas (casos de uso), que a su vez son modelados incluyendo relaciones y asociaciones jerárquicamente organizadas entre ellos.
-        .row 
+        .row(data-aos="fade-down")
           .col-auto.d-none.d-lg-block
             figure
               img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 85px;") 
           .col 
             p.mb-0.position-relative(style="top: -5px;") Los casos de uso y sus actores son quienes especifican los requerimientos de un cliente, detallando las expectativas que cada uno tiene del sistema, sin centrarse únicamente en la funcionalidad que se implementará. Los análisis de requisitos se realizan para diversos procesos, no necesariamente solo para desarrollos de #[em software]. Entre los diagramas más relevantes y utilizados en UML se encuentran los diagramas de casos de uso.
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 502px;")
     
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade")
       .row
         .col-auto.pe-0
           figure
@@ -33,9 +33,9 @@
     
     .row.align-items-center.mb-5
       .col-lg-7
-        p.mb-4 Los casos de uso permiten describir cada una de las funciones de las aplicaciones a desarrollar desde el punto de vista del usuario. Su utilidad se centra en expresar las funcionalidades que el producto de #[em software] debe ejecutar y, definir a las personas que serán responsables de realizar estas funcionalidades. Esta técnica implica la creación de un diagrama con su respectiva notación. El caso de uso representa el comportamiento del #[em software] en la interacción con el usuario, con el objetivo de que este alcance una meta específica. Por tanto, un caso de uso se compone de los elementos que forman parte de su notación.
+        p.mb-4(data-aos="fade-down") Los casos de uso permiten describir cada una de las funciones de las aplicaciones a desarrollar desde el punto de vista del usuario. Su utilidad se centra en expresar las funcionalidades que el producto de #[em software] debe ejecutar y, definir a las personas que serán responsables de realizar estas funcionalidades. Esta técnica implica la creación de un diagrama con su respectiva notación. El caso de uso representa el comportamiento del #[em software] en la interacción con el usuario, con el objetivo de que este alcance una meta específica. Por tanto, un caso de uso se compone de los elementos que forman parte de su notación.
 
-        .px-3.py-4.fondo-color-sistema-j.borde-13
+        .px-3.py-4.fondo-color-sistema-j.borde-13(data-aos="fade-up")
           .row.align-items-center 
             .col-lg-auto
               figure.mb-4.mb-lg-0
@@ -44,11 +44,11 @@
               p.mb-4.fw-bold Componentes de los diagramas de casos de uso
               p.mb-0 La notación de un diagrama de caso de uso incluye tres componentes principales que facilitan la representación simbólica de las funcionalidades del sistema, así como de las personas involucradas y las interacciones entre ellas.
 
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/22.png",style="max-width: 505px;")
 
-    .row.justify-content-center 
+    .row.justify-content-center(data-aos="flip-up")
       .col-lg-8
         .p-3.fondo-personalizado-5.borde-13
           .row.align-items-center 
@@ -58,7 +58,7 @@
             .col
               p.mb-0.text-white Estos componentes son: #[b los actores], que son los usuarios o roles que interactúan con el sistema; #[b los casos de uso], que describen las funciones del sistema; y #[b las relaciones], que especifican las conexiones entre actores y casos de uso.
 
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
+    .cont-titulo-decorativo.p-2.mt-5.mb-5(data-aos="fade")
       .row
         .col-auto.pe-0
           figure
@@ -67,14 +67,14 @@
           h3.mt-3.mb-0.me-2 Actor
     
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p.mb-0 Define un rol desempeñado por un usuario, representa a una persona o grupo de personas que interactúan con un #[em software]. Se simboliza mediante la figura de un "#[em stick man]", junto al nombre del actor, que es obligatorio. Los actores se utilizan para identificar la clase de usuario que participará en el sistema y será responsable de ejecutar determinadas funciones. Por lo general, los nombres de los actores comienzan con mayúscula.
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 502px;")
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-md-8.mb-4
+      .col-lg-4.col-md-8.mb-4(data-aos="fade-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -92,7 +92,7 @@
             .py-2(style="min-height: 131px;")
               p.mb-3.fw-bold.text-white.text-center De apoyo
               p.mb-0.text-white.text-center Proveen servicios al sistema informático y son definidos para esclarecer las interfaces externas.
-      .col-lg-4.col-md-8.mb-4(data-aos="flip-up")
+      .col-lg-4.col-md-8.mb-4(data-aos="flip-left")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -102,30 +102,30 @@
               p.mb-3.fw-bold.text-white.text-center Los pasivos
               p.mb-0.text-white.text-center Se interesan en el funcionamiento de los casos de uso, aunque no son considerados actores principales.
     
-    p.mb-4 En la figura que se presenta a continuación, se identifica cómo se representa de manera gráfica un actor en un UML, al cual también se le adiciona el nombre del actor correspondiente para dar mayor claridad en el proceso.
+    p.mb-4(data-aos="fade-left") En la figura que se presenta a continuación, se identifica cómo se representa de manera gráfica un actor en un UML, al cual también se le adiciona el nombre del actor correspondiente para dar mayor claridad en el proceso.
 
     .fondo-personalizado-4.mb-5
       .fondo-personalizado-4__contenido.pt-5.pb-4
-        .row.justify-content-center 
+        .row.justify-content-center(data-aos="flip-up")
           .col-lg-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 2.] Representación gráfica de un actor en UML
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/28.png",style="max-width: 400px;",alt="La figura contiene la Figura representación gráfica de un actor en UML, con círculos y palos.")
 
-    p.mb-4 Además, es importante considerar que los actores no son necesariamente personas, aunque en los diagramas de casos de uso se representen mediante formas humanas. En este contexto, los sistemas externos también cumplen el rol de actores, pues pueden requerir información del sistema real o interactuar con él, como ocurre con una base de datos.
+    p.mb-4(data-aos="fade-right") Además, es importante considerar que los actores no son necesariamente personas, aunque en los diagramas de casos de uso se representen mediante formas humanas. En este contexto, los sistemas externos también cumplen el rol de actores, pues pueden requerir información del sistema real o interactuar con él, como ocurre con una base de datos.
 
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-up")
         .fondo-color-sistema-l.p-4.borde-13.h-100.d-flex.align-items-center
           p.mb-0 Al determinar los casos de uso, resulta esencial identificar al actor. Este término se refiere al usuario cuando desempeña un rol específico, implicando que dicho usuario ejecuta los casos de uso. Dado lo anterior, cada actor tiene la capacidad de participar en diversos casos de uso y, a su vez, cada caso de uso puede involucrar a diferentes actores. Para identificar a un actor, basta con visualizar los roles que interactúan dentro del sistema.
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/29.png",style="max-width: 501px;")
 
     .fondo-personalizado-6.pos-1.mb-5
       .fondo-personalizado-6__contenido.pb-5
-        .row.justify-content-center.mb-5 
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-8
             .fondo-color-sistema-m.p-4.borde-20
               .row.align-items-center
@@ -140,7 +140,7 @@
 
         h4.px-4.py-2.d-inline-block.fondo-color-primario.text-white.borde-20.mb-5 #[span(style="color: #00FFDF !important;") &bull;] Relación
 
-        .borde-7.sombra-1.p-5.mb-5.bg-white
+        .borde-7.sombra-1.p-5.mb-5.bg-white(data-aos="zoom-in-out")
           p.mb-4 La interacción entre un actor y un caso de uso se denota mediante una relación, simbolizada por una línea o una flecha. Se describen varios tipos de relaciones según los actores mencionados anteriormente.
           .row
             .col-lg-7
@@ -165,7 +165,7 @@
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/31.png",style="max-width: 471px;")
         
-        .row.justify-content-center 
+        .row.justify-content-center(data-aos="fade") 
           .col-lg-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 3.] Representación gráfica de una relación de caso de uso en UML
@@ -173,10 +173,10 @@
               figure
                 img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 321px;",alt="Fechas que representan la relación con el actor.")
 
-    p.mb-5 Continuando con el ejemplo 1 se identifican las siguientes relaciones de comunicación:
+    p.mb-5(data-aos="fade-right") Continuando con el ejemplo 1 se identifican las siguientes relaciones de comunicación:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-md-8.mb-4
+      .col-lg-4.col-md-8.mb-4(data-aos="flip-up")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -205,7 +205,7 @@
     h4.px-4.py-2.d-inline-block.fondo-color-primario.text-white.borde-20.mb-5 #[span(style="color: #00FFDF !important;") &bull;] Caso de uso
 
     .row.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-up")
         .fondo-color-sistema-o.p-4.borde-10
           .row.align-items-center 
             .col-lg-auto 
@@ -221,13 +221,13 @@
                 li
                   i.fas.fa-code.color-sistema-n
                   span El caso de uso debe ser de fácil lectura e interpretación, tanto para los desarrolladores como para el cliente. Para el nombre, se recomienda utilizar un verbo en infinitivo acompañado de un complemento.
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="fade-down")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/38.png",style="max-width: 400px;")
 
     .fondo-personalizado-7.pos-1.mb-5
       .fondo-personalizado-7__contenido.pb-5
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="flip-up")
           .col-lg-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 4.] Representación caso de uso
@@ -236,15 +236,15 @@
                 img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
     
     .row.mb-4
-      .col-auto.d-none.d-lg-block
+      .col-auto.d-none.d-lg-block(data-aos="fade-right")
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
-      .col
+      .col(data-aos="fade")
         p.mb-0.position-relative(style="top: -5px;") Los casos de uso que se identifican para el ejemplo 1 son: generar factura y enviar factura, los cuales se ven representados gráficamente en la siguiente figura.
 
     .fondo-personalizado-7.pos-1.mb-5
       .fondo-personalizado-7__contenido.pb-5
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="flip-up")
           .col-lg-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 5.] Representación caso de uso
@@ -253,16 +253,16 @@
                 img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
     
     .row.mb-4
-      .col-auto.d-none.d-lg-block
+      .col-auto.d-none.d-lg-block(data-aos="fade-right")
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
-      .col
+      .col(data-aos="fade")
         p.mb-0.position-relative(style="top: -5px;") A continuación, se presenta un ejemplo de la representación gráfica del diagrama de caso de uso, que incluye los actores, relaciones y el caso de uso del problema planteado en el Ejemplo 1.
 
     
     .fondo-personalizado-7.pos-1.mb-5
       .fondo-personalizado-7__contenido.pb-5
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="flip-up")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 6.] Representación ejemplo 1
@@ -271,32 +271,32 @@
                 img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 321px;",alt="La figura  representa un proceso de dos pasos donde un comerciante genera una factura y luego la envía a un destinatario o sistema.")
 
     .row.mb-5
-      .col-auto.d-none.d-lg-block
+      .col-auto.d-none.d-lg-block(data-aos="fade-right")
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
-      .col
+      .col(data-aos="fade")
         p.mb-0.position-relative(style="top: -5px;") Por otro lado, los pasos para diseñar el diagrama de casos de uso del sistema de ventas, mostrado en la figura anterior, están detallados a continuación:
 
     .fondo-personalizado-8.mb-5
       .fondo-personalizado-8__contenido.pb-4
         .row.justify-content-center
-          .col-lg-3.mb-4
+          .col-lg-3.mb-4(data-aos="fade-up")
             .fondo-color-primario.borde-20.p-4.pt-5.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 87px;")
               p.mb-5.text-white.text-center Se identifican los casos de uso según requerimientos, para el caso del ejemplo son: (generar factura, enviar factura).
-          .col-lg-3.mb-4
+          .col-lg-3.mb-4(data-aos="fade-down")
             .fondo-color-sistema-p.borde-20.p-4.pt-5.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 87px;")
               p.mb-5.text-center Se identifican los posibles actores que interactuaran con el sistema: para el caso del ejemplo: (comerciante y sistema externo).
-          .col-lg-3.mb-4
+          .col-lg-3.mb-4(data-aos="fade-up")
             .fondo-color-primario.borde-20.p-4.pt-5.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 87px;")
               p.mb-5.text-white.text-center Se identifican las relaciones de comunicación entre comerciante y los casos de uso generar factura y enviar factura.
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
@@ -305,10 +305,10 @@
     
     Separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Relaciones de casos de uso
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade")
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
@@ -317,7 +317,7 @@
     
     .fondo-personalizado-9.pos-1.mb-4
       .fondo-personalizado-9__contenido
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in-out")
           .col-lg-4.col-md-8.mb-4
             .crd_hover_txt
               .crd_hover_txt--img
@@ -347,10 +347,10 @@
                   p.mb-0.text-white.text-center Esta relación ocurre entre un caso de uso general y uno más específico, donde el específico hereda propiedades del caso de uso base.
 
         .row.mb-5
-          .col-auto.d-none.d-lg-block
+          .col-auto.d-none.d-lg-block(data-aos="fade-left")
             figure
               img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
-          .col
+          .col(data-aos="fade")
             p.mb-0.position-relative(style="top: -5px;") Tomando como referencia el Ejemplo 1, con el objetivo de perfeccionar el diagrama de casos de uso, se pueden introducir nuevos casos de uso que ilustren las relaciones mencionadas anteriormente.
         
         AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
@@ -374,7 +374,7 @@
 
     .fondo-personalizado-9.pos-1.mb-5
       .fondo-personalizado-9__contenido.pt-4
-        .cont-titulo-decorativo.p-2.mb-5
+        .cont-titulo-decorativo.p-2.mb-5(data-aos="fade")
           .row
             .col-auto.pe-0
               figure
@@ -383,30 +383,30 @@
               h3.mt-3.mb-0.me-2 Especificación de casos de uso
         
         .row.mb-5 
-          .col-lg-7
+          .col-lg-7(data-aos="fade")
             p.mb-4 La especificación de casos de uso se refiere al proceso de descripción detallada de cada caso, incluyendo los flujos y eventos que interactúan con el sistema y los actores involucrados. Generalmente, el analista encargado del diseño identifica los requerimientos y los documenta.
             p.mb-0 El propósito de la especificación de casos de uso incluye:
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 502px;")
         
         .row.justify-content-center 
           .col-lg-6
-            .px-4.px-md-5.fondo-personalizado-10.color-1.mb-4
+            .px-4.px-md-5.fondo-personalizado-10.color-1.mb-4(data-aos="fade-up")
               .row.align-items-center
                 .col-lg-auto 
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/52.png",style="max-width: 75px;")
                 .col 
                   p.mb-0.text-white.pb-lg-1.pb-4.py-1 Describir la interacción de un actor con el sistema.
-            .px-4.px-md-5.fondo-personalizado-10.color-2.mb-4
+            .px-4.px-md-5.fondo-personalizado-10.color-2.mb-4(data-aos="fade")
               .row.align-items-center
                 .col-lg-auto 
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/53.png",style="max-width: 75px;")
                 .col
                   p.mb-0.text-white.pb-lg-1.pb-4.py-1 Explicar el rol que desempeñan los actores en su interacción con el sistema y sus flujos.
-            .px-4.px-md-5.fondo-personalizado-10.color-3.mb-4
+            .px-4.px-md-5.fondo-personalizado-10.color-3.mb-4(data-aos="fade-down")
               .row.align-items-center
                 .col-lg-auto 
                   figure.mb-4.mb-lg-0
@@ -414,7 +414,7 @@
                 .col
                   p.mb-0.text-white.pb-lg-1.pb-4.py-1 Detallar los casos de uso.
     
-    .row.mb-5.align-items-center.mb-4
+    .row.mb-5.align-items-center.mb-4(data-aos="zoom-in-out")
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
@@ -521,24 +521,24 @@
 
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-out")
       h2 2.2 Casos de uso reales (Prototipos)
 
     .row.mb-4
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p.mb-4 El propósito principal de los casos de uso reales es detallar el proceso de un sistema de información descrito mediante un caso de uso, lo que incluye la interacción de objetos y la definición de las transacciones de las interfaces y clases de los diferentes procedimientos secundarios de diseño. Por lo tanto, es fundamental completar los entornos recolectados del análisis con las clases de diseño correspondientes, sin dejar de lado las restricciones del entorno tecnológico.
-        .fondo-color-sistema-j.p-3.borde-13
+        .fondo-color-sistema-j.p-3.borde-13(data-aos="fade-left")
           .row.align-items-center
             .col-lg-auto 
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/55.png",style="max-width: 112px;")
             .col
               p.mb-0 Los casos de uso reales representan el diseño preciso del caso de uso desde una tecnología específica. Por ejemplo, si se trata de un diseño gráfico para el usuario, se incluirá el diseño de las ventanas y una descripción de la interacción con los objetos de la interfaz. Los casos de uso reales proporcionan diseños de pantalla y explicaciones sobre la interacción entre los objetos de la interfaz.
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-up")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/56.png",style="max-width: 502px;")
 
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade")
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
@@ -578,10 +578,10 @@
                       span Al finalizar el proceso, el cliente se retira con los artículos comprados.
 
     .row.mb-5.align-items-center
-      .col-auto.d-none.d-lg-block
+      .col-auto.d-none.d-lg-block(data-aos="fade-up")
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
-      .col
+      .col(data-aos="fade-down")
         p.mb-0.position-relative A continuación, se presenta el ejemplo del sistema de ventas:
 
     .fondo-personalizado-11.pos-1
@@ -590,10 +590,10 @@
           p.mb-0 #[b Figura 7.] Ejemplo Sistema de ventas
         .row 
           .col-lg-8
-            figure.mb-4.mb-lg-0
+            figure.mb-4.mb-lg-0(data-aos="flip-up")
               img.mx-auto(src="@/assets/curso/temas/58.png",style="max-width: 820px;",alt="La figura presenta la interfaz de un sistema de ventas  contiene campos para Cod Producto, Precio, Total, Monto, Cantidad, Descripción y Total Venta. En la parte inferior, se encuentran tres botones de acción para Ingresar Producto, Terminar Venta y Efectuar Pago.")
           .col-lg-4
-            ul.lista-ul.lista-personalizada-1
+            ul.lista-ul.lista-personalizada-1(data-aos="zoom-in-out")
               li.mb-2
                 div.list-dec-1.me-2
                   span.fondo-color-acento-contenido 1

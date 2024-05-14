@@ -2,23 +2,23 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.pb-0.pb-md-0
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Diagrama de actividades
     
     .row.mb-5 
       .col-lg-7
-        p.mb-4 Estos son diagramas de comportamiento que se utilizan para representar una sucesión de actividades. Explican el flujo de operaciones desde el punto de inicio hasta el final, definiendo una variedad de caminos de decisiones en el desarrollo de eventos que abarca una actividad. Según Booch, G. (1994), estos diagramas permiten visualizar un caso de uso específico a un nivel más preciso, ilustrando el flujo de actividades definidas en un sistema.
-        p.mb-4 A continuación, se describen los beneficios del diagrama de actividades:
+        p.mb-4(data-aos="fade-up") Estos son diagramas de comportamiento que se utilizan para representar una sucesión de actividades. Explican el flujo de operaciones desde el punto de inicio hasta el final, definiendo una variedad de caminos de decisiones en el desarrollo de eventos que abarca una actividad. Según Booch, G. (1994), estos diagramas permiten visualizar un caso de uso específico a un nivel más preciso, ilustrando el flujo de actividades definidas en un sistema.
+        p.mb-4(data-aos="fade-down") A continuación, se describen los beneficios del diagrama de actividades:
         p.mb-0.color-sistema-n Beneficios:
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/97.png",style="max-width: 502px;")
 
     .fondo-personalizado-9.pos-2.mb-5
       .fondo-personalizado-9__contenido
-        .row 
+        .row(data-aos="flip-up")
           .col-lg-3.col-md-6.mb-4
             .fondo-personalizado-15.pos-1.px-4.pb-5.h-100
               .d-flex
@@ -48,7 +48,7 @@
                     img.mx-auto(src="@/assets/curso/temas/101.svg",style="max-width: 89px;")
               h4.mb-0.text-center Aporta claridad, optimizando y facilitando los casos de uso complejos.
 
-        .cont-titulo-decorativo.p-2.mt-4.mb-5
+        .cont-titulo-decorativo.p-2.mt-4.mb-5(data-aos="fade-left")
           .row
             .col-auto.pe-0
               figure
@@ -56,7 +56,7 @@
             .col.align-self-end
               h3.mt-3.mb-0.me-2 Elementos de un diagrama de actividades
 
-        p.mb-5 Un diagrama de actividades contiene fundamentalmente los siguientes elementos:
+        p.mb-5(data-aos="fade-right") Un diagrama de actividades contiene fundamentalmente los siguientes elementos:
 
         .row.justify-content-center 
           .col-lg-10
@@ -114,14 +114,14 @@
                       figure
                         img.mx-auto(src="@/assets/curso/temas/105.png",style="max-width: 263px;",alt="La figura representa la grafica de un nodo final.")
 
-    .row.mb-4
+    .row.mb-4(data-aos="zoom-in-out")
       .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 85px;")
       .col
         p.mb-0 Después de realizar la descripción de los elementos que componen un diagrama de actividades, se presenta el siguiente ejemplo de un diagrama de clase sobre un proceso de registro e inicio de sesión.
 
-    .cont-titulo-decorativo.p-2.mt-1.mb-5
+    .cont-titulo-decorativo.p-2.mt-1.mb-5(data-aos="fade-down")
       .row
         .col-auto.pe-0
           figure
@@ -129,7 +129,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Ejemplo de diagrama de actividades
 
-    p.mb-5 A continuación, se presenta un ejemplo de un diagrama de actividades que incluye las funcionalidades de iniciar sesión y registrar en un sistema.
+    p.mb-5(data-aos="flip-up") A continuación, se presenta un ejemplo de un diagrama de actividades que incluye las funcionalidades de iniciar sesión y registrar en un sistema.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -140,17 +140,17 @@
           .burbuja.left(style="bottom: 15%;background-color: #F2F6FF;transform: translateX(calc(-89px))")
           .burbuja(style="top: -89px;right: 8%;background-color: #F2F6FF;")
           .burbuja(style="bottom: -89px;right: 8%;background-color: #F2F6FF;")
-          .fondo-personalizado-burbuja__contenido.py-5.px-4
+          .fondo-personalizado-burbuja__contenido.py-5.px-4(data-aos="fade")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/106.png",style="max-width: 718px;",alt="La figura presenta un ejemplo de como se debe construir un diagrama de actividades y sus componentes.")
 
     .fondo-personalizado-2
       .fondo-personalizado-2__contenido.py-5
         .row.align-items-center 
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             .fondo-color-sistema-j.px-4.borde-20.py-5
               p.mb-0 Como se presenta en el ejemplo anterior, el flujo inicia con la actividad de autenticar usuario y pasa por un nodo de decisión que verifica si el usuario existe o no. Si el usuario existe, pasa a un nodo de decisión donde se valida el usuario; si no es correcto, muestra un mensaje de error; si es correcto, da acceso a la aplicación y muestra el menú de inicio. En caso de no existir el usuario, pasa a la actividad de registrar usuario y después ingresa datos. Luego sigue a un nuevo nodo de decisión, donde valida los datos y da acceso a la aplicación, continuando el flujo de actividad mostrando la interfaz del menú del sistema y finalmente termina la actividad con un nodo final.
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img.mx-auto(src="@/assets/curso/temas/107.png",style="max-width: 507px;")
 
