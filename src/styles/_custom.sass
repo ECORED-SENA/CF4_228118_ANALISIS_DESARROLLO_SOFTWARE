@@ -563,6 +563,25 @@
   top: 0
   left: 0
 
+.tarjeta-personalizada-1
+  position: relative
+  p
+    position: relative
+  &:before
+    content: ""
+    position: absolute
+    top: 50px
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 12px
+  &--color-1
+    &:before
+      background-color: #9DF9F3
+  &--color-2
+    &:before
+      background-color: #C4DAF8
+
 //imagen infografica
 .imagen-infografica-personalizada-1
   .img-infografica__item, .img-infografica-b__item
@@ -675,3 +694,35 @@
   border-bottom-right-radius: 22px
   position: relative
   top: -20px
+
+//lineas de tiempo
+.linea-tiempo-a-1
+  .linea-tiempo-a__row::before
+    background-color: $color-sistema-n
+  .linea-tiempo-a__icon__container
+    background-color: $color-sistema-l
+    &::before
+      background-color: $color-sistema-l
+    .h4
+      width: 100%
+      max-width: 80px
+      @media screen and (max-width: $bp-max-xs)
+        max-width: 60px
+  .linea-tiempo-a__text
+    h3
+      color: $color-sistema-n
+      font-size: 16px
+
+//figuras
+.figura-flecha
+  position: relative
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  &__titulo
+    position: absolute !important
+    z-index: 1
+  &__fig
+    img
+      pointer-events: none
+      user-select: none

@@ -63,7 +63,7 @@
       .col
         p.mb-0 Los elementos que componen un diagrama de clase son:
     
-    p(style="color: red;") Falta elemento de line aqui
+    LineaTiempoA.mb-5.linea-tiempo-a-1(:datos="datosLineaTiempoA")
 
     .row.align-items-center.mb-5
       .col-auto.d-none.d-lg-block
@@ -556,7 +556,35 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    datosLineaTiempoA: [
+      {
+        ano:
+          '<img style="min-width: 100%;" src="' +
+          require('@/assets/curso/temas/161.png') +
+          '">',
+        titulo: 'Clase',
+        texto:
+          'Es la unidad básica que encapsula la información para definir un objeto (siendo un objeto una instancia de una clase). Mediante la clase, es posible modelar entidades del dominio de estudio, como una casa, un auto o una cuenta corriente.',
+      },
+      {
+        ano:
+          '<img style="min-width: 100%;" src="' +
+          require('@/assets/curso/temas/162.png') +
+          '">',
+        titulo: 'Atributos',
+        texto:
+          'Son las características o propiedades específicas de una clase.',
+      },
+      {
+        ano:
+          '<img style="min-width: 100%;" src="' +
+          require('@/assets/curso/temas/163.png') +
+          '">',
+        titulo: 'Métodos',
+        texto:
+          ' Son las operaciones o funciones a través de las cuales una clase interactúa con sus datos.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

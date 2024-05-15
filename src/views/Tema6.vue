@@ -67,7 +67,37 @@
     
     p.mb-5(data-aos="fade") A continuación, se presentan ejemplos de las herramientas CASE por ámbitos:
 
-    p(style="color: red;") Faltan elementos aquiii
+    .row.justify-content-center.mb-4
+        .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
+          .tarjeta-personalizada-1.tarjeta-personalizada-1--color-1.h-100
+            .figura-flecha.mb-4.me-4
+              h4.figura-flecha__titulo.mb-0 Análisis y diseño
+              figure.figura-flecha__fig
+                img.mx-auto(src="@/assets/curso/temas/164.png",style="max-width: 228px;")
+            p.px-3.mb-0 Workbench
+            p.px-3.mb-0 GUI Design Studio
+            p.px-3.mb-0 DIA
+            p.px-3.mb-0.pb-4 StarUML
+
+
+        .col-lg-4.col-md-6.mb-4(data-aos="fade-down")
+          .tarjeta-personalizada-1.tarjeta-personalizada-1--color-2.h-100
+            .figura-flecha.mb-4.me-4.ps-2
+              h4.figura-flecha__titulo.mb-0.px-4 Diseño de archivos y base de datos
+              figure.figura-flecha__fig
+                img.mx-auto(src="@/assets/curso/temas/165.png",style="max-width: 228px;")
+            p.px-3.mb-0 Power Designer
+            p.px-3.mb-0 Oracle Designer
+            p.px-3.mb-0.pb-4 EasyCase
+
+        .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
+          .tarjeta-personalizada-1.tarjeta-personalizada-1--color-1.h-100
+            .figura-flecha.mb-4.me-4
+              h4.figura-flecha__titulo.mb-0 Programación
+              figure.figura-flecha__fig
+                img.mx-auto(src="@/assets/curso/temas/164.png",style="max-width: 228px;")
+            p.px-3.mb-0 NetBeans
+            p.px-3.mb-0.pb-4 Eclipse/Omondo 
     
     p.mb-0(data-aos="fade-left") Los diagramas de clase se diagraman con las herramientas que hacen parte del grupo de Herramientas de alto nivel, U-CASE, entre las que encontramos StartUML, Lucichart, ArgoUML, MagicDraw.
 
