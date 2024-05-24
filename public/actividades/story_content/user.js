@@ -1,15 +1,13 @@
-function ExecuteScript(strId)
+window.InitUserScripts = function()
 {
-  switch (strId)
-  {
-      case "6CFOFr8ZsfO":
-        Script1();
-        break;
-  }
-}
-
-function Script1()
+var player = GetPlayer();
+var object = player.object;
+var addToTimeline = player.addToTimeline;
+var setVar = player.SetVar;
+var getVar = player.GetVar;
+window.Script1 = function()
 {
   window.close();
 }
 
+};

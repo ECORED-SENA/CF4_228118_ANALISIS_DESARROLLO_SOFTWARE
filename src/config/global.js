@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de requisitos',
     descripcionCurso:
-      'Este componente formativo aborda la ingeniería de requisitos y el levantamiento de requerimientos para prever el comportamiento del <em>software</em>. Utiliza casos de uso, historias de usuario y Lenguaje de Modelado Unificado para modelar funcionalidades e interacciones. Además, introduce Herramientas CASE, esenciales para visualizar y construir <em>software</em>',
+      'Este componente formativo aborda la ingeniería de requisitos y el levantamiento de requerimientos para prever el comportamiento del <em>software</em>. Utiliza casos de uso, historias de usuario y Lenguaje de Modelado Unificado para modelar funcionalidades e interacciones. Además, introduce herramientas CASE, esenciales para visualizar y construir <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Características Lenguaje Unificado de Modelado UML',
+        titulo: 'Características del Lenguaje Unificado de Modelado UML',
         desarrolloContenidos: true,
       },
       {
@@ -357,6 +357,16 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',

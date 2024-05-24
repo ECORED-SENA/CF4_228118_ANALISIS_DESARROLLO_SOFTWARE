@@ -15,18 +15,18 @@
           .col-md-6.col-lg-4.mb-4
             .fondo-color-primario.p-4.borde-20.h-100
               figure.mb-3
-                img.mx-auto(src="@/assets/curso/temas/60.svg",style="max-width: 37px;")
+                img.mx-auto(src="@/assets/curso/temas/166.svg",style="max-width: 37px;")
               h4.text-white.text-center Cómo [Rol del usuario]
           .col-md-6.col-lg-4.mb-4
             .fondo-color-sistema-n.p-4.borde-20.h-100
               figure.mb-3
-                img.mx-auto(src="@/assets/curso/temas/60.svg",style="max-width: 37px;")
+                img.mx-auto(src="@/assets/curso/temas/167.svg",style="max-width: 37px;")
               h4.text-white.text-center Quiero [Objetivo]
 
           .col-md-6.col-lg-4.mb-4
             .fondo-color-primario.p-4.borde-20.h-100
               figure.mb-3
-                img.mx-auto(src="@/assets/curso/temas/60.svg",style="max-width: 37px;")
+                img.mx-auto(src="@/assets/curso/temas/168.svg",style="max-width: 37px;")
               h4.text-white.text-center Para poder [Beneficio]
 
       .col-lg-5.order-first.order-lg-last(data-aos="fade")
@@ -137,6 +137,7 @@
           .col-lg-7(data-aos="fade-up")
             p.mb-4 Así como estas reglas son necesarias, también lo es una buena redacción de las historias de usuario. Por este motivo, a continuación se presenta un método que facilita mejorar la calidad en la escritura de una historia de #[b usuario: el método #[em “Invest”].]
             .fondo-color-sistema-j.px-4.py-5.borde-13
+              p.fw-bold.mb-0 Método #[em invest]
               p.mb-0 A continuación, se hace una descripción de cada uno de los elementos que intervienen en este método:
           .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
             figure.mb-4.mb-lg-0

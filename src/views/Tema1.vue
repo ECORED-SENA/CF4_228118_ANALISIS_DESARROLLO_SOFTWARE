@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Características Lenguaje Unificado de Modelado UML
+      h1 Características del Lenguaje Unificado de Modelado UML
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-out")
       .col-lg-10
@@ -15,7 +15,7 @@
               figure.mb-4.mb-lg-0
                 img.mx-auto(src="@/assets/curso/temas/4.svg",style="max-width: 71px;")
             .col 
-              p.mb-0 Con el nacimiento de la Programación Orientada a Objetos (POO), se establecieron una variedad de lenguajes, métodos y simbologías utilizadas para detallar el desarrollo de diferentes sistemas. Indudablemente, esta situación generó desconcierto entre los programadores de software. Para solucionar este inconveniente, surgió el Lenguaje de Modelado Unificado (Unified Modeling Language, UML).
+              p.mb-0 Con el nacimiento de la Programación Orientada a Objetos (POO), se establecieron una variedad de lenguajes, métodos y simbologías utilizadas para detallar el desarrollo de diferentes sistemas. Indudablemente, esta situación generó desconcierto entre los programadores de #[em software]. Para solucionar este inconveniente, surgió el Lenguaje de Modelado Unificado (#[em Unified Modeling Language], UML).
     
     .fondo-personalizado-2.pos-1
       .fondo-personalizado-2__contenido
@@ -28,14 +28,15 @@
         
         .row.pb-5
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-0(data-aos="fade-up") El UML es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas de forma convencional y fácil de comprender, facilitando la comunicación de estas a otras personas. (Schmuller, 2000, p.24)
-            p.mb-4.fw-bold Evolución del Lenguaje Unificado de Modelado UML.
+            p.mb-4(data-aos="fade-up") El UML es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas de forma convencional y fácil de comprender, facilitando la comunicación de estas a otras personas. (Schmuller, 2000, p.24)
+            
             .fondo-color-sistema-j.p-3.borde-13(data-aos="fade-down")
               .row.align-items-center
                 .col-lg-auto
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 73px;")
                 .col 
+                  p.mb-4.fw-bold Evolución del Lenguaje Unificado de Modelado UML
                   p.mb-0 El UML tuvo su origen a finales de los años 80, inicialmente basado en el método Booch, desarrollado por el diseñador de #[em software] Grady Booch. En 1994, el científico de la computación James Rumbaugh implementó el modelado de objetos en este método. En 1995, se añadieron a estas bases otros principios y metodologías, algunas de ellas introducidas por Ivar Jacobson. (Booch, 2006).
           .col-lg-5(data-aos="fade-left")
             figure
@@ -72,7 +73,7 @@
             figure
               img(src='@/assets/curso/temas/11.png' alt="")
           .crd_hover_txt--body
-            p.mb-0.text-white.text-center.fw-bold Ivar Jacobson, UML 0.8 y 0.91 1996
+            p.mb-0.text-white.text-center.fw-bold Ivar Jacobson, UML 0.8 y 0.91 1996.
     
     .fondo-personalizado-2
       .fondo-personalizado-2__contenido.py-5
@@ -99,20 +100,20 @@
               ImagenInfografica.color-acento-botones.imagen-infografica-personalizada-1(data-aos="zoom-in-out")
                 template(v-slot:imagen)
                   figure
-                    img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 1023px;")
+                    img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 1026px;")
 
                 .tarjeta.color-acento-botones.p-3.borde-9(x="23%" y="73%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Visualizar
                   p UML facilita la representación de un sistema de forma gráfica, con el fin de que se pueda entender fácilmente por otra persona.
-                .tarjeta.color-acento-botones.p-3.borde-9(x="63%" y="25%" numero="+")
+                .tarjeta.color-acento-botones.p-3.borde-9(x="39%" y="25%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Especificar
                   p UML permite detallar cuáles son las necesidades de un sistema previo a su construcción.
-                .tarjeta.color-acento-botones.p-3.borde-9(x="39%" y="25%" numero="+")
+                .tarjeta.color-acento-botones.p-3.borde-9(x="63%" y="25%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Construir
                   p La construcción del sistema diseñado se realiza tomando los modelos especificados en el lenguaje UML.
                 .tarjeta.color-acento-botones.p-3.borde-9(x="77%" y="65%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Documentar
-                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado estos se usan como documentación la cual permite soporte para nuevas revisiones o empalme para que nuevos desarrolladores entiendan el sistema.
+                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado, estas se utilizan como documentación. Esto permite brindar soporte para nuevas revisiones o empalmes, facilitando que los nuevos desarrolladores comprendan el sistema.
         
         .d-lg-none.fondo-color-sistema-k.borde-10.p-4.overflow-hidden
           .fondo-personalizado-burbuja
@@ -126,15 +127,15 @@
                 .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="35%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Visualizar
                   p UML facilita la representación de un sistema de forma gráfica, con el fin de que se pueda entender fácilmente por otra persona.
-                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="71%" numero="+")
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="54%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Especificar
                   p UML permite detallar cuáles son las necesidades de un sistema previo a su construcción.
-                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="54%" numero="+")
+                .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="71%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Construir
                   p La construcción del sistema diseñado se realiza tomando los modelos especificados en el lenguaje UML.
                 .tarjeta.color-acento-botones.p-3.borde-9(x="50%" y="88%" numero="+")
                   .h5.mb-4.fondo-color-primario.text-white.p-2.d-inline-block(style="min-width: 212px;") Documentar
-                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado estos se usan como documentación la cual permite soporte para nuevas revisiones o empalme para que nuevos desarrolladores entiendan el sistema.
+                  p Cuando se diseñan las notaciones gráficas del sistema desarrollado, estas se utilizan como documentación. Esto permite brindar soporte para nuevas revisiones o empalmes, facilitando que los nuevos desarrolladores comprendan el sistema.
 
     .row.align-items-center 
       .col-lg-8

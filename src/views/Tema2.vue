@@ -247,7 +247,7 @@
         .row.justify-content-center(data-aos="flip-up")
           .col-lg-4
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 5.] Representación caso de uso
+              p.mb-0 #[b Figura 5.] Ejemplo caso de uso
             .borde-7.sombra-1.px-4.py-5.bg-white
               figure
                 img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
@@ -294,7 +294,7 @@
             .fondo-color-primario.borde-20.p-4.pt-5.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 87px;")
-              p.mb-5.text-white.text-center Se identifican las relaciones de comunicación entre comerciante y los casos de uso generar factura y enviar factura.
+              p.mb-5.text-white.text-center Se identifican las relaciones de comunicación entre comerciante y los casos de uso, generar factura y enviar factura.
 
     .row.mb-5(data-aos="flip-up")
       .col-auto.d-none.d-lg-block
@@ -437,7 +437,7 @@
                 tbody
                   tr
                     td #[b Nombre del caso de uso]
-                    td Indica el nombre del caso de uso. Normalmente, el nombre expresa el resultado objetivo y observable del caso de uso, como por ejemplo "Imprimir factura" en el caso de un de un sistema de ventas.
+                    td Indica el nombre del caso de uso. Normalmente, el nombre expresa el resultado objetivo y observable del caso de uso, como por ejemplo "Imprimir factura" en el caso de un sistema de ventas.
                   tr
                     td #[b Autor]
                     td Persona que diseña el caso de uso.
@@ -572,7 +572,7 @@
                       span En el almacén de ropa el cliente se dirige a la caja registradora con los productos a comprar.
                     li.mb-1
                       | &bull; &nbsp;
-                      span El empleado- cajero hace el registro de los productos que el cliente compra y recibe el dinero en efectivo.
+                      span El empleado-cajero hace el registro de los productos que el cliente compra y recibe el dinero en efectivo.
                     li.mb-1
                       | &bull; &nbsp;
                       span Al finalizar el proceso, el cliente se retira con los artículos comprados.
