@@ -110,8 +110,10 @@
           .col-lg-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 2.] Representación gráfica de un actor en UML
-            figure.mb-4.mb-lg-0
-              img.mx-auto(src="@/assets/curso/temas/28.png",style="max-width: 400px;",alt="La figura contiene la Figura representación gráfica de un actor en UML, con círculos y palos.")
+            
+            .borde-7.bg-white.p-lg-5.p-4.sombra-1
+              figure.mb-4.mb-lg-0
+                img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 132px;",alt="La figura contiene la Figura representación gráfica de un actor en UML, con círculos y palos.")
 
     p.mb-4(data-aos="fade-right") Además, es importante considerar que los actores no son necesariamente personas, aunque en los diagramas de casos de uso se representen mediante formas humanas. En este contexto, los sistemas externos también cumplen el rol de actores, pues pueden requerir información del sistema real o interactuar con él, como ocurre con una base de datos.
 
@@ -171,7 +173,7 @@
               p.mb-0 #[b Figura 3.] Representación gráfica de una relación de caso de uso en UML
             .borde-7.sombra-1.px-4.py-5.bg-white
               figure
-                img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 321px;",alt="Fechas que representan la relación con el actor.")
+                img.mx-auto(src="@/assets/curso/temas/32.svg",style="max-width: 321px;",alt="Fechas que representan la relación con el actor.")
 
     p.mb-5(data-aos="fade-right") Continuando con el ejemplo 1 se identifican las siguientes relaciones de comunicación:
 
@@ -233,7 +235,7 @@
               p.mb-0 #[b Figura 4.] Representación caso de uso
             .borde-7.sombra-1.px-4.py-5.bg-white
               figure
-                img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
+                img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
     
     .row.mb-4
       .col-auto.d-none.d-lg-block(data-aos="fade-right")
@@ -250,7 +252,7 @@
               p.mb-0 #[b Figura 5.] Ejemplo caso de uso
             .borde-7.sombra-1.px-4.py-5.bg-white
               figure
-                img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
+                img.mx-auto(src="@/assets/curso/temas/169.svg",style="max-width: 321px;",alt="La representación del  caso de uso es a tráves de un ovalo.")
     
     .row.mb-4
       .col-auto.d-none.d-lg-block(data-aos="fade-right")
@@ -268,7 +270,7 @@
               p.mb-0 #[b Figura 6.] Representación ejemplo 1
             .borde-7.sombra-1.px-4.py-4.bg-white
               figure
-                img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 321px;",alt="La figura  representa un proceso de dos pasos donde un comerciante genera una factura y luego la envía a un destinatario o sistema.")
+                img.mx-auto(src="@/assets/curso/temas/42.svg",style="max-width: 321px;",alt="La figura  representa un proceso de dos pasos donde un comerciante genera una factura y luego la envía a un destinatario o sistema.")
 
     .row.mb-5
       .col-auto.d-none.d-lg-block(data-aos="fade-right")
@@ -591,7 +593,7 @@
         .row 
           .col-lg-8
             figure.mb-4.mb-lg-0(data-aos="flip-up")
-              img.mx-auto(src="@/assets/curso/temas/58.png",style="max-width: 820px;",alt="La figura presenta la interfaz de un sistema de ventas  contiene campos para Cod Producto, Precio, Total, Monto, Cantidad, Descripción y Total Venta. En la parte inferior, se encuentran tres botones de acción para Ingresar Producto, Terminar Venta y Efectuar Pago.")
+              img.mx-auto(src="@/assets/curso/temas/58.svg",style="max-width: 820px;",alt="La figura presenta la interfaz de un sistema de ventas  contiene campos para Cod Producto, Precio, Total, Monto, Cantidad, Descripción y Total Venta. En la parte inferior, se encuentran tres botones de acción para Ingresar Producto, Terminar Venta y Efectuar Pago.")
           .col-lg-4
             ul.lista-ul.lista-personalizada-1(data-aos="zoom-in-out")
               li.mb-2

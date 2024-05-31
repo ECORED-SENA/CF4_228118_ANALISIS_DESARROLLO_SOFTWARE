@@ -142,7 +142,7 @@
           .burbuja(style="bottom: -89px;right: 8%;background-color: #F2F6FF;")
           .fondo-personalizado-burbuja__contenido.py-5.px-4(data-aos="fade")
             figure.mb-4.mb-lg-0
-              img.mx-auto(src="@/assets/curso/temas/106.png",style="max-width: 718px;",alt="La figura presenta un ejemplo de como se debe construir un diagrama de actividades y sus componentes.")
+              img.mx-auto(src="@/assets/curso/temas/106.svg",style="max-width: 718px;",alt="La figura presenta un ejemplo de como se debe construir un diagrama de actividades y sus componentes.")
 
     .fondo-personalizado-2
       .fondo-personalizado-2__contenido.py-5

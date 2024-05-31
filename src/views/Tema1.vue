@@ -154,7 +154,7 @@
         .row.justify-content-center
           .col-lg-8.py-5
             figure.mb-4.mb-lg-0(data-aos="fade")
-              img.mx-auto(src="@/assets/curso/temas/18.png",style="max-width: 820px;",alt="El Modelo para la construcción de software UML se utiliza principalmente para: comunicar la estructura de un sistema complejo, especificar el comportamiento que se requiere en el sistema, comprender de una manera más clara lo que construye y especificar el comportamiento que se requiere en el sistema.")
+              img.mx-auto(src="@/assets/curso/temas/18.svg",style="max-width: 820px;",alt="El Modelo para la construcción de software UML se utiliza principalmente para: comunicar la estructura de un sistema complejo, especificar el comportamiento que se requiere en el sistema, comprender de una manera más clara lo que construye y especificar el comportamiento que se requiere en el sistema.")
 
     p.mb-0(data-aos="fade-left") UML está compuesto por diversos elementos gráficos que se combinan para #[b conformar diagramas]. Entre los tipos de diagramas que ofrece UML, se encuentra #[b el diagrama de clase], que es parte de los diagramas de estructura. Estos últimos enfatizan los elementos que deben existir en el sistema de modelado.
       

@@ -84,9 +84,9 @@
             .d-flex.py-lg-5(data-aos="zoom-in-out")
               .fondo-color-sistema-v.p-3.px-4.px-lg-3.borde-21.d-inline-block.mx-auto
                 figure.d-none.d-lg-block
-                  img.mx-auto(src="@/assets/curso/temas/113.png",style="max-width: 897px;",alt="La representación de una clase de UML es un rectángulo que tiene tres divisiones (Nombre de la clase, - Atributos y +Operaciones o Métodos ()).")
+                  img.mx-auto(src="@/assets/curso/temas/113.svg",style="max-width: 897px;",alt="La representación de una clase de UML es un rectángulo que tiene tres divisiones (Nombre de la clase, - Atributos y +Operaciones o Métodos ()).")
                 figure.d-lg-none
-                  img.mx-auto(src="@/assets/curso/temas/115.png",style="max-width: 897px;",alt="La representación de una clase de UML es un rectángulo que tiene tres divisiones (Nombre de la clase, - Atributos y +Operaciones o Métodos ()).")
+                  img.mx-auto(src="@/assets/curso/temas/115.svg",style="max-width: 897px;",alt="La representación de una clase de UML es un rectángulo que tiene tres divisiones (Nombre de la clase, - Atributos y +Operaciones o Métodos ()).")
     
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0
@@ -253,7 +253,7 @@
       .burbuja(style="bottom: -89px;left: 18%;")
       .fondo-personalizado-burbuja__contenido.p-3.py-lg-5
         figure.mb-4.mb-lg-0(data-aos="zoom-in-out")
-          img.mx-auto(src="@/assets/curso/temas/127.png",style="max-width: 512px;",alt="En la figura se ejemplifica navegabilidad unidireccional y  bidireccional; o la asociación entre la clase A y la clase B.")
+          img.mx-auto(src="@/assets/curso/temas/127.svg",style="max-width: 512px;",alt="En la figura se ejemplifica navegabilidad unidireccional y  bidireccional; o la asociación entre la clase A y la clase B.")
 
     .row.mb-4 
       .col-lg-7
@@ -312,7 +312,7 @@
       .burbuja(style="bottom: -89px;left: 18%;")
       .fondo-personalizado-burbuja__contenido.p-3.py-lg-5
         figure.mb-4.mb-lg-0(data-aos="zoom-in-out")
-          img.mx-auto(src="@/assets/curso/temas/132.png",style="max-width: 512px;",alt="Ejemplo de variaciones de asociación entre clases; lo cual incluye tres variaciones de relaciones de asociación entre la clase instructor y la clase aprendiz, en todos los tres casos la navegabilidad varía dependiendo de lo que se está representando en la relación por medio de su nombre.")
+          img.mx-auto(src="@/assets/curso/temas/132.svg",style="max-width: 512px;",alt="Ejemplo de variaciones de asociación entre clases; lo cual incluye tres variaciones de relaciones de asociación entre la clase instructor y la clase aprendiz, en todos los tres casos la navegabilidad varía dependiendo de lo que se está representando en la relación por medio de su nombre.")
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.d-none.d-lg-block

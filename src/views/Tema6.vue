@@ -35,7 +35,7 @@
       .burbuja(style="bottom: -89px;left: 18%;")
       .fondo-personalizado-burbuja__contenido.p-3.py-lg-5
         figure.d-none.d-lg-block(data-aos="zoom-in-out")
-          img.mx-auto(src="@/assets/curso/temas/158.png",style="max-width: 702px;",alt="La figura presenta los objetivos de las herramienta CASE; así: Fortalecer el rendimiento en el desarrollo, automatizar la generación de la documentación, hacer el software portable, mayor eficiencia en los productos desarrollados, automatizar tareas de desarrollo, administrar el proyecto, disminuir el valor del software, automatizar los chequeos de errores y reingeniería.")
+          img.mx-auto(src="@/assets/curso/temas/158.svg",style="max-width: 702px;",alt="La figura presenta los objetivos de las herramienta CASE; así: Fortalecer el rendimiento en el desarrollo, automatizar la generación de la documentación, hacer el software portable, mayor eficiencia en los productos desarrollados, automatizar tareas de desarrollo, administrar el proyecto, disminuir el valor del software, automatizar los chequeos de errores y reingeniería.")
         .fondo-color-sistema-v.borde-21.d-lg-none.p-3
           figure
             img.mx-auto(src="@/assets/curso/temas/159.png",style="max-width: 440px;",alt="La figura presenta los objetivos de las herramienta CASE; así: Fortalecer el rendimiento en el desarrollo, automatizar la generación de la documentación, hacer el software portable, mayor eficiencia en los productos desarrollados, automatizar tareas de desarrollo, administrar el proyecto, disminuir el valor del software, automatizar los chequeos de errores y reingeniería.")
