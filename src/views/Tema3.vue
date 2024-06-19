@@ -201,7 +201,7 @@
 
     h4.px-4.py-2.d-inline-block.fondo-color-primario.text-white.borde-20.mb-5 #[span(style="color: #00FFDF !important;") &bull;]	 Historia de usuario: “Crear Usuario”
 
-    p.mb-5(data-aos="fade-right") En seguida, se presentar dos opciones: 
+    p.mb-5(data-aos="fade-right") En seguida, se presentan dos opciones: 
 
     .fondo-personalizado-14.pos-1
       .fondo-personalizado-14__contenido
