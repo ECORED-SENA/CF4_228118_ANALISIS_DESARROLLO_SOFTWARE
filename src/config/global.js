@@ -183,7 +183,7 @@ export default {
     {
       termino: 'Ágil',
       significado:
-        'conjunto de tareas o acciones para producir y mantener productos y lograr objetivos de proceso. incluye procedimientos, estándares, políticas y objetivos para crear y modificar productos de trabajo.',
+        'conjunto de tareas o acciones para producir y mantener productos y lograr objetivos de proceso. Incluye procedimientos, estándares, políticas y objetivos para crear y modificar productos de trabajo.',
     },
     {
       termino: 'CASE',
@@ -220,7 +220,7 @@ export default {
     {
       termino: 'Tecnología CASE',
       significado:
-        'conjunto de instrumentos y técnicas software para automatizar una disciplina de la ingeniería, incluyendo metodologías estructuradas y herramientas.',
+        'conjunto de instrumentos y técnicas <i>software</i> para automatizar una disciplina de la ingeniería, incluyendo metodologías estructuradas y herramientas.',
     },
   ],
   referencias: [
@@ -257,8 +257,6 @@ export default {
     {
       referencia:
         'Gutiérrez, J. (s.f.). Diagramas UML de casos de uso y de requisitos.',
-      link:
-        'http://www.lsi.us.es/~javierj/cursos_ficheros/metricaUML/CasosUsoUML.pdf',
     },
     {
       referencia:
